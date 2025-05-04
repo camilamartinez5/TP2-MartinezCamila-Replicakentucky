@@ -1,0 +1,859 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+.carrusel {
+  width: 1260px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  z-index: 10;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  background-color: transparent;
+  border-radius: 20px;
+  /*padding: 0px 0px;*/
+  margin: -3px -16px 0 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.carousel {
+  position: absolute;
+  width: 300%;
+  height: 100%;
+  display: flex;
+  animation: slide 30s infinite;
+}
+
+.carousel img {
+  width: 100vw;
+  height: 90%;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100vw); }
+  66% { transform: translateX(-200vw); }
+  100% { transform: translateX(0); }
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  margin-top: 32px;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 74px 0 0;
+  z-index: 10;
+  text-align: right;
+  gap: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+nav ul li a:hover {
+  background: #CF0A2C;;
+  padding: 8px 6px 8px 6px;
+  transition: color 0.01s ease; 
+}
+
+.imgLogo{
+  margin-left: 100px;
+  width: 220px; 
+  margin: -52px 931px 0 0;
+}
+
+.centered-text {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.centered-text .icono {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.13));
+  z-index: 1;
+}
+
+.centered-text {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.centered-text .icono {
+  width: 79%;
+  margin-right: 33px;
+  margin-bottom: 28px;
+}
+
+.recortesup1 {
+  text-align: center;
+  width: 1584px;
+  z-index: 10px;
+  margin-bottom: -224px;
+  margin-left: -320px;
+}  
+
+.lonja_int{
+  width: 100%;
+}
+
+.centrador_lonja{
+  max-width: 860px;
+}
+
+div{
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.etiqueta{
+  width: 53%;
+  margin-top: -23px;
+  margin-left: 246px;
+}
+
+.sumate{
+  width: 37.5%;
+  margin-top: -112px;
+  margin-left: 727px;
+}
+
+.recorteinf1{
+  text-align: center;
+  width: 1584px;
+  z-index: 40px;
+  margin-bottom: -420px;
+  margin-left: -320px;
+}
+
+.concepto{
+  width: 100%;
+  height: 600px;
+}
+
+.recorteLateral{
+  position: absolute;
+  z-index: 30px;
+  height: 102%;
+  margin-top: 25px;
+  margin-left: -634px;
+}
+
+.recorteConcepto{
+  display: none;
+}
+
+.lonja_int6{
+  width: 49%;
+  height: 106%;
+  background-color: #CF0A2C;
+  position: absolute;
+  margin-top: -47%;
+  margin-left: 645px;
+}
+
+.fuegoDesde{
+  width: 38%;
+  margin-top: -540px;
+  margin-left: 693px;
+  position: absolute;
+  z-index: 20px;
+}
+
+p .concepto{
+  width: 28%;  
+  position: absolute;
+}
+
+p{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 25px;
+  color: #FFF;
+  margin-left: 710px;
+  margin-right: 70px;
+  margin-top: -428px;
+  margin-bottom: 150px;
+  position: absolute;
+}
+
+.recortesup2 {
+  width: 1264px;
+  z-index: 10px;
+  margin-top: -30px;
+  margin-bottom: 190px;
+  position: absolute;
+}
+
+.lonja_int2{
+  background-color: #1A1A1A;
+  margin-top: -601px;
+  height: 175px;
+}
+
+.estamosCerca{
+  width: 57%;
+  margin-top: 45px;
+  margin-left: 246px;
+  position: absolute;
+}
+
+.mapa{
+  width: 28%;
+  margin-top: -101px;
+  margin-left: 768px;
+}
+
+.recorteinf2{
+  text-align: center;
+  width: 1584px;
+  z-index: 100;
+  margin-bottom: -425px;
+  margin-left: -320px;
+  position: absolute;
+}
+
+.hero2{
+  height: 610px;
+  overflow: hidden; 
+  margin-top: -0px;
+  z-index: auto;
+}
+
+.fotoPizza{
+  width: 1600px;
+  height: 700px;
+}
+
+.iconoTentate{
+  width: 55%;
+  margin-top: -595px;
+  margin-left: 280px;
+  position: absolute;
+}
+
+.btn_conocelas{
+  width: 18%;
+  margin-top: -240px;
+  margin-left: 520px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.overlay2{
+  position: absolute;
+  width: 100%;
+  height: 109%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.13));
+}
+
+.lonja_int3{
+  background-color: #CF0A2C;
+  margin-top: -25px;
+  height: 310px;
+}
+
+.recortesup3 {
+  width: 1264.9px;
+  z-index: 30px;
+  margin-top: -1px;
+  margin-bottom: 18px;
+  position: absolute;
+}
+
+.nuestrasRedes{
+  width: 21%;
+  margin-top: 55px;
+  margin-left: 240px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.facebook{
+  width: 10%;
+  margin-top: 60px;
+  margin-left: 580px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.instagram{
+  width: 10%;
+  margin-top: 75px;
+  margin-left: 745px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.youtube{
+  width: 10%;
+  margin-top: 80px;
+  margin-left: 910px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.recortesup4{
+  width: 1264.9px;
+  z-index: 30px;
+  margin-top: -33px;
+  margin-bottom: 38px;
+  position: absolute;
+}
+
+.lonja_int4{
+  background-color: white;
+  margin-top: -26px;
+  height: 220px;
+}
+
+.delivery{
+  width: 36%;
+  margin-top: 65px;
+  margin-left: 240px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.rappi{
+  width: 11%;
+  margin-top: 35px;
+  margin-left: 745px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.pedidosya{
+  width: 11%;
+  margin-top: 35px;
+  margin-left: 900px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.recortesup5{
+  width: 1264.9px;
+  z-index: 30px;
+  margin-top: -28px;
+  margin-bottom: 38px;
+  position: absolute;
+}
+
+.lonja_int5{
+  background-color: #1A1A1A;
+  height: 240px;
+}
+
+.datos2 a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logoInf{
+  width: 18%;
+  margin-top: 80px;
+  margin-left: 522px;
+}
+
+.datos{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  color: #FFF;
+  margin-top: 196px;
+  margin-left: 29px;
+  position: absolute;
+}
+
+.datos2{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 21px;
+  color: #FFF;
+  margin-top: 196px;
+  margin-left: 1050px;
+  margin-right: 10px;
+  position: absolute;
+  text-decoration: none;
+}
+
+/* Ocultar el checkbox */
+#check {
+  display: none;
+}
+
+/* Estilo del botón hamburguesa */
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  display: none; /* Oculto en desktop */
+}
+
+/* Estilo general del navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  z-index: 3000;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Botón de cierre (X) oculto en escritorio */
+.close-btn {
+  display: none;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  /* Mostrar hamburguesa */
+  .checkbtn {
+    display: block;
+    margin-top: -30px;
+    margin-right: 6px;
+  }
+
+  /* Menú oculto por defecto */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #CF0A2C;;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    transition: 0.5s;
+    z-index: 2000;
+  }
+
+  /* Mostrar menú cuando el checkbox está tildado */
+  #check:checked ~ .navbar {
+    left: 0;
+  }
+
+  /* Estilos del botón de cierre (X) */
+  .close-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .close-btn label {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+
+  /* Estilo de los links dentro del menú */
+  .navbar li {
+    margin: 1px 0;
+  }
+
+  .navbar li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover{
+    background: transparent;
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media(max-width: 768px){
+
+  body {
+  margin: 0;
+  padding: 0;
+}
+
+  .hero {
+    position: relative;
+    height: 50vh;
+    overflow: hidden; 
+  }
+
+  .imgLogo{
+    margin-left: 100px;
+    width: 150px; 
+    margin: -52px 29px 0 0;
+  }
+
+  .centered-text .icono {
+    width: 230px;
+    margin-bottom: -25px;
+    margin-left: 40px;
+  }
+
+  .recortesup1 {
+    text-align: center;
+    width: 681px;
+    z-index: 10px;
+    margin-bottom: 83px;
+    margin-left: -320px;
+  } 
+  
+  .lonja_int{
+    width: 100%;
+    height: 40px;
+  }
+
+  .etiqueta{
+    width: 37%;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+
+  .sumate{
+    width: 40%;
+    margin-top: -57px;
+    margin-left: 187px;
+    position: absolute;
+  }
+
+  .recorteinf1{
+    text-align: center;
+    width: 680px;
+    z-index: 40px;
+    margin-bottom: -50px;
+    margin-left: -320px;
+  }
+
+  .concepto{
+    width: 100%;
+    height: 550px;
+  }
+
+  .fuegoDesde{
+    width: 106px;
+    margin-bottom: -100%;
+    margin-left: 93px;
+    position: absolute;
+  }
+
+  .recorteConcepto{
+    display: flex;
+    margin: -330px;
+    width: 690px;
+    height: 90px;
+    position: absolute;
+  }
+
+  .recorteLateral{
+    display: none;
+  }
+  
+  .lonja_int6{
+    width: 100%;
+    height: 55%;
+    background-color: #CF0A2C;
+    position: absolute;
+    margin-top: -77%;
+    margin-left: 0px;
+  }
+  
+  .fuegoDesde{
+    width: 74%;
+    margin-top: -264px;
+    margin-left: 23px;
+    position: absolute;
+    z-index: 20px;
+  }
+  
+  p .concepto{
+    width: 28%;  
+    position: absolute;
+  }
+  
+  br{
+    display: none;
+  }
+
+  p{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+    margin-right: 45px;
+    margin-top: -205px;
+    margin-bottom: 150px;
+    position: absolute;
+  }
+
+  .recortesup2 {
+    width: 360px;
+    z-index: 10px;
+    margin-top: -425px;
+    margin-bottom: 190px;
+    position: absolute;
+  }
+
+  .lonja_int2{
+    background-color: #1A1A1A;
+    margin-top: -416px;
+    height: 80px;
+    width: 360px;
+    position: absolute;
+  }
+
+  .estamosCerca{
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 30px;
+    position: absolute;
+  }
+  
+  .mapa{
+    width: 32%;
+    margin-top: 9px;
+    margin-left: 210px;
+  }
+
+  .recorteinf2{
+    text-align: center;
+    width: 680px;
+    z-index: 100;
+    margin-top: -342px;
+    margin-right: 100px;
+    position: absolute;
+  }
+
+  .fotoPizza{
+    width: 360px;
+    height: 350px;
+    margin-top: -340px;
+    position: absolute;
+  }
+  
+  .iconoTentate{
+    width: 75%;
+    margin-top: -255px;
+    margin-left: 50px;
+    position: absolute;
+  }
+  
+  .btn_conocelas{
+    width: 48%;
+    margin-top: -120px;
+    margin-left: 100px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .overlay2{
+    width: 100%;
+    height: 40%;
+    margin-top: -340px;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.13));
+  }
+
+  .recortesup3 {
+    width: 360px;
+    z-index: 30px;
+    margin-top: -9px;
+    position: absolute;
+  }
+
+  .lonja_int3{
+    background-color: #CF0A2C;
+    margin-top: -600px;
+    height: 110px;
+  }
+
+  .nuestrasRedes{
+    width: 31%;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .facebook{
+    width: 16%;
+    margin-top: 20px;
+    margin-left: 150px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .instagram{
+    width: 14%;
+    margin-top: 26px;
+    margin-left: 225px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .youtube{
+    width: 16%;
+    margin-top: 26px;
+    margin-left: 290px;
+    z-index: 50px;
+    position: absolute;
+  }
+
+  .recortesup4{
+    width: 360px;
+    z-index: 30px;
+    margin-top: -105px;
+    margin-bottom: 38px;
+    position: absolute;
+  }
+  
+  .lonja_int4{
+    background-color: white;
+    margin-top: -19px;
+  }
+  
+  .delivery{
+    width: 46%;
+    margin-top: -65px;
+    margin-left: 25px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .rappi{
+    width: 18%;
+    margin-top: -82px;
+    margin-left: 203px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .pedidosya{
+    width: 18%;
+    margin-top: -82px;
+    margin-left: 276px;
+    z-index: 50px;
+    position: absolute;
+  }
+
+  .recortesup5{
+    width: 360px;
+    z-index: 30px;
+    margin-top: -9px;
+    margin-bottom: 38px;
+    position: absolute;
+  }
+  
+  .lonja_int5{
+    background-color: #1A1A1A;
+    height: 100px;
+    width: 360px;
+    margin-top: -560px;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+  }
+
+
+  .footer3{
+    margin-top: 100%;
+  }
+
+  .lonja_int4{
+    background-color: white;
+    margin-top: 96px;
+    height: 220px;
+    margin-bottom: 0;
+  }  
+  
+
+  .logoInf{
+    width: 28%;
+    margin-top: 30px;
+    margin-left: 135px;
+    margin-bottom: 0;
+  }
+
+  .datos{
+    display: none;
+  }
+  
+  .datos2{
+    display: none;
+  }
+}

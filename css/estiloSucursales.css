@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  z-index: 10;
+}
+
+.imgLogo{
+  margin-left: 100px;
+  width: 220px; 
+  margin: -52px 931px 0 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  background-color: transparent;
+  border-radius: 20px;
+  /*padding: 0px 0px;*/
+  margin: -3px -16px 0 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero{
+  height: 478px;
+  overflow: hidden; 
+  margin-top: -0px;
+  z-index: auto;
+  position: relative;
+}
+
+.fotoIndex{
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  margin-top: 32px;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 74px 0 0;
+  z-index: 10;
+  text-align: right;
+  gap: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+nav ul li a:hover {
+  background: #CF0A2C;;
+  padding: 8px 6px 8px 6px;
+  transition: color 0.01s ease; 
+}
+
+.lonja_int1{
+  background-color: #1A1A1A;
+  height: 90px;
+}
+
+.recorte1 {
+  text-align: center;
+  width: 1475.9px;
+  z-index: 40px;
+  margin-top: -1px;
+  margin-left: -190px;
+  position: absolute;
+}  
+
+.container {
+  display: flex;
+  height: 100vh;
+  margin-top: -360px;
+}
+
+.barraLateral{
+  margin-left: 10px;
+}
+
+.left {
+  flex: 2;
+  display: flex;
+  height: 85%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin-top: -28px;
+  margin-right: 30px;
+}
+
+.map {
+  width: 390%;
+  height: 105%;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-top: -28px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 28px;
+}
+
+.dropdown {
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.locations {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 90px;
+}
+
+.location {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.caba{
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: -50px;
+  font-weight: 900;
+  color: black;
+}
+
+.sucursales{
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #CF0A2C;
+}
+
+/*Estilos para el select*/
+.select-container {
+  position: relative;
+  width: 260px;
+}
+
+select {
+  font-family: 'futurandaltcn', Arial, Helvetica, sans-serif;;
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  font-size: 16px;
+  color: #CF0A2C;
+  border: 1.5px solid #CF0A2C;
+  background-color: #fdfdfd;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.select-container::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #CF0A2C;
+  font-size: 14px;
+}
+
+/* Ocultar el checkbox */
+#check {
+  display: none;
+}
+
+/* Estilo del botón hamburguesa */
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  display: none; /* Oculto en desktop */
+}
+
+/* Estilo general del navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  z-index: 3000;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Botón de cierre (X) oculto en escritorio */
+.close-btn {
+  display: none;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  /* Mostrar hamburguesa */
+  .checkbtn {
+    display: block;
+  }
+
+  /* Menú oculto por defecto */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #CF0A2C;;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    transition: 0.5s;
+    z-index: 2000;
+  }
+
+  /* Mostrar menú cuando el checkbox está tildado */
+  #check:checked ~ .navbar {
+    left: 0;
+  }
+
+  /* Estilos del botón de cierre (X) */
+  .close-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .close-btn label {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+
+  /* Estilo de los links dentro del menú */
+  .navbar li {
+    margin: 1px 0;
+  }
+
+  .navbar li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover{
+    background: transparent;
+    color: black;
+    text-decoration: none;
+  }
+}
+
+option{
+  color: black;
+}
+ /*Fin de los Estilos para el select*/
+
+ @media(max-width: 850px){
+  .imgLogo{
+    margin-left: 100px;
+    width: 160px; 
+    margin: -52px 170px 0 0;
+  }
+ }
+
+ @media (max-width: 850px) {
+  .container {
+    flex-direction: column; /* Todo se apila verticalmente */
+  }
+
+  .right-options {
+    width: 100%;
+  }
+
+  .map {
+    width: 890px;
+    height: 80vh; /* Mayor altura para que se vea más amplio */
+    order: -1; /* Asegura que el mapa esté arriba */
+    border-right: none;
+    box-shadow: none; 
+  }
+
+  .right-options {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    height: 100vh;
+    background: #333;
+    transition: 0.3s;
+  }
+}

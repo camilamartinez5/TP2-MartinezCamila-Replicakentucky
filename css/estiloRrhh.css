@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  z-index: 10;
+}
+
+.imgLogo{
+  margin-left: 100px;
+  width: 220px; 
+  margin: -52px 931px 0 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  background-color: transparent;
+  border-radius: 20px;
+  /*padding: 0px 0px;*/
+  margin: -3px -16px 0 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero{
+  height: 478px;
+  overflow: hidden; 
+  margin-top: -0px;
+  z-index: auto;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.304));
+}
+
+.fotoIndex{
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  margin-top: 32px;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 74px 0 0;
+  z-index: 10;
+  text-align: right;
+  gap: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+nav ul li a:hover {
+  background: #CF0A2C;;
+  padding: 8px 6px 8px 6px;
+  transition: color 0.01s ease; 
+}
+
+.recorte1 {
+  text-align: center;
+  width: 1475.9px;
+  z-index: 40px;
+  margin-top: -36px;
+  margin-left: -211px;
+  position: absolute;
+}  
+
+.lonja_int{
+  width: 80%;
+  /*height: 140%; este no va*/
+  margin-top: -80px;
+  position: absolute;
+}
+
+.nuestrasPizzas{
+  width: 57%;
+  margin-top: 110px;
+  margin-left: 345px;
+}
+
+.titulo{
+  width: 88%;
+  margin-top: 110px;
+  margin-left: 190px;
+}
+
+.formulario1{
+  margin-top: 200px;
+  margin-left: 110px;
+  margin-right: 90px;
+}
+
+#inputMensaje{
+  text-align: center;
+}
+
+.seleccionar{
+  margin-left: 268px;
+  margin-top: -150px;
+  width: 170px;
+}
+
+.boton{
+  text-decoration: none;
+  margin-left: 45%;
+  height: 55%;
+  width: 10%;
+  margin-top: 27px;
+}
+
+.enviar{
+  margin-top: -9px;
+  margin-left: -10px;
+}
+
+.lonja_int3{
+  background-color: #CF0A2C;
+  margin-top: 105px;
+  height: 310px;
+}
+
+.recortesup3 {
+  width: 1264.9px;
+  z-index: 30px;
+  margin-top: -28px;
+  margin-bottom: 18px;
+  position: absolute;
+}
+
+.nuestrasRedes{
+  width: 21%;
+  margin-top: 55px;
+  margin-left: 240px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.facebook{
+  width: 10%;
+  margin-top: 60px;
+  margin-left: 580px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.instagram{
+  width: 10%;
+  margin-top: 75px;
+  margin-left: 745px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.youtube{
+  width: 10%;
+  margin-top: 80px;
+  margin-left: 910px;
+  z-index: 50px;
+  position: absolute;
+}
+
+.recortesup4{
+  width: 1264.9px;
+  z-index: 30px;
+  margin-top: -33px;
+  margin-bottom: 38px;
+  position: absolute;
+}
+
+.recortesup5{
+  width: 1264.9px;
+  z-index: 30px;
+  margin-top: -28px;
+  margin-bottom: 38px;
+  position: absolute;
+}
+
+.lonja_int5{
+  background-color: #1A1A1A;
+  height: 240px;
+}
+
+.datos2 a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logoInf{
+  width: 18%;
+  margin-top: 80px;
+  margin-left: 522px;
+}
+
+.datos{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  color: #FFF;
+  margin-top: 196px;
+  margin-left: 29px;
+  position: absolute;
+}
+
+.datos2{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 21px;
+  color: #FFF;
+  margin-top: 196px;
+  margin-left: 1050px;
+  margin-right: 10px;
+  position: absolute;
+  text-decoration: none;
+}
+
+section .footer3{
+  background: black;
+}
+
+/*estilos para los controles del formulario*/
+.form-control, .form-select{
+border: 1px solid black;
+border-radius: 0; 
+box-shadow: none;
+padding: 10px;
+font-size: 20px;
+font-weight: bolder;
+color: black;
+}
+
+.form-control:focus, .form-select:focus{
+box-shadow:none;
+border-color:black;
+outline: none;
+}
+
+.form-control::placeholder, .form-select::placeholder{
+font-weight: 1000;
+color: black;
+}
+
+.formulario-ajustado{
+max-width: 1100px;
+width: 100%;
+}
+
+/* Ocultar el checkbox */
+#check {
+  display: none;
+}
+
+/* Estilo del botón hamburguesa */
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  display: none; /* Oculto en desktop */
+}
+
+/* Estilo general del navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  z-index: 3000;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Botón de cierre (X) oculto en escritorio */
+.close-btn {
+  display: none;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  /* Mostrar hamburguesa */
+  .checkbtn {
+    display: block;
+  }
+
+  /* Menú oculto por defecto */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #CF0A2C;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    transition: 0.5s;
+    z-index: 2000;
+  }
+
+
+  /* Mostrar menú cuando el checkbox está tildado */
+  #check:checked ~ .navbar {
+    left: 0;
+  }
+
+  /* Estilos del botón de cierre (X) */
+  .close-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .close-btn label {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+
+  /* Estilo de los links dentro del menú */
+  .navbar li {
+    margin: 1px 0;
+  }
+
+  .navbar li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover{
+    background: transparent;
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .lonja_int5{
+    background-color: #1A1A1A;
+    margin-top: 60px;
+    height: 120px;
+  }
+}
+
+@media(max-width: 768px){
+  body {
+  margin: 0;
+  padding: 0;
+}
+
+  .hero {
+    position: relative;
+    height: 50vh;
+    overflow: hidden; 
+  }
+
+  .overlay{
+    display: none;
+  }
+
+  .fotoIndex{
+    width: 100%;
+    height: 280px;
+  }
+
+  .imgLogo{
+    margin-left: 100px;
+    width: 150px; 
+    margin: -52px 29px 0 0;
+  }
+
+  .recorte1 {
+    text-align: center;
+    width: 779px;
+    margin-top: -95px;
+    margin-bottom: 83px;
+    margin-left: -320px;
+  } 
+
+  .titulo{
+    width: 88%;
+    margin-top: 30px;
+    margin-left: 65px;
+  }
+  
+  .formulario1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .seleccionar{
+    margin-left: 130px;
+  }
+  
+  .boton{
+    text-decoration: none;
+    margin-left: 165px;
+    height: 55%;
+    width: 10%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .enviar{
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+  .recortesup3 {
+    width: 460px;
+    z-index: 30px;
+    margin-top: -9px;
+    position: absolute;
+  }
+
+  .lonja_int3{
+    background-color: #CF0A2C;
+    margin-top: 1px;
+    height: 130px;
+  }
+
+  .nuestrasRedes{
+    width: 31%;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .facebook{
+    width: 16%;
+    margin-top: 20px;
+    margin-left: 180px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .instagram{
+    width: 14%;
+    margin-top: 26px;
+    margin-left: 272px;
+    z-index: 50px;
+    position: absolute;
+  }
+  
+  .youtube{
+    width: 16%;
+    margin-top: 26px;
+    margin-left: 360px;
+    z-index: 50px;
+    position: absolute;
+  }
+
+  .recortesup5{
+    width: 460px;
+    z-index: 30px;
+    margin-top: -11px;
+    margin-bottom: 38px;
+    position: absolute;
+  }
+  
+  .lonja_int5{
+    background-color: #1A1A1A;
+    height: 100px;
+    width: 360px;
+    margin-top: -460px;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+  }
+
+  .footer3{
+    margin-top: 100%;
+  }
+
+  .lonja_int4{
+    background-color: white;
+    margin-top: 96px;
+    height: 220px;
+    margin-bottom: 0;
+  }  
+  
+  .logoInf{
+    width: 28%;
+    margin-top: 30px;
+    margin-left: 185px;
+    margin-bottom: 0;
+  }
+
+  .datos{
+    display: none;
+  }
+  
+  .datos2{
+    display: none;
+  }
+}
+
